@@ -1,0 +1,215 @@
+body {
+  font-family: Verdana, Geneva, sans-serif;
+  box-sizing: none;
+  background-image: linear-gradient(to bottom, rgb(0,0,0,0.45), rgb(0,0,0,0.45)),url(../img/Background.jpg);
+  background-size: cover;
+}
+
+h1 {
+  font-family: MinecraftTen;
+  font-size: 35px;
+  color: white;
+  text-align: center;
+}
+
+ input[type=text], input[type=email], input[type=password] {
+  width: 100%;
+  padding: 8px 10px 9px 35px;
+  height: 35px;
+  border: 1px solid #cccccc;
+  box-sizing: border-box;
+  outline: none;
+  background-color: transparent;
+  -webkit-transition: all 0.30s ease-in-out;
+  -moz-transition: all 0.30s ease-in-out;
+  -ms-transition: all 0.30s ease-in-out;
+  transition: all 0.30s ease-in-out;
+}
+
+ input[type=text]:hover, input[type=email]:hover, input[type=password]:hover {
+  background: #fafafa;
+}
+ input[type=text]:focus, input[type=email]:focus, input[type=password]:focus {
+  -webkit-box-shadow: 0 0 2px 1px rgba(255, 169, 0, 0.5);
+  -moz-box-shadow: 0 0 2px 1px rgba(255, 169, 0, 0.5);
+  box-shadow: 0 0 2px 1px rgba(255, 169, 0, 0.5);
+  border: 1px solid #f5ba1a;
+  background: #fafafa;
+}
+ input[type=submit], input[type=reset] {
+  background: #f5ba1a;
+  height: 35px;
+  line-height: 35px;
+  width: 100%;
+  border: none;
+  cursor: pointer;
+  color: #fff;
+  font-size: 1.1em;
+  margin-bottom: 10px;
+}
+ input[type=submit]:hover, input[type=reset]:hover{
+  background: #ee7c22;
+}
+ input[type=submit]:focus, input[type=reset]:focus {
+  background: #e1a70a;
+}
+ input[type=checkbox], input[type=radio] {
+  border: 0;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+
+.checkbox_option label {
+  color: white;
+  margin-right: 1em;
+  position: relative;
+}
+.checkbox_option label:before {
+  content: "";
+  display: inline-block;
+  width: 0.5em;
+  height: 0.5em;
+  margin-right: 0.5em;
+  vertical-align: -2px;
+  border: 2px solid #cccccc;
+  padding: 0.12em;
+  background-color: transparent;
+  background-clip: content-box;
+}
+.checkbox_option label:after {
+  border-right: 2px solid white;
+  border-top: 2px solid white;
+  content: "";
+  height: 20px;
+  left: 2px;
+  position: absolute;
+  top: 7px;
+  transform: scaleX(-1) rotate(135deg);
+  transform-origin: left top;
+  width: 7px;
+  display: none;
+}
+.checkbox_option input:hover + label:before {
+  border-color: white;
+}
+.checkbox_option input:checked + label:before {
+  border-color: white;
+}
+.checkbox_option input:checked + label:after {
+  display: block;
+  width: 7px;
+  height: 20px;
+  border-color: white;
+}
+
+.radio_option label {
+  margin-right: 1em;
+  color: white;
+}
+.radio_option label:before {
+  content: "";
+  display: inline-block;
+  width: 0.5em;
+  height: 0.5em;
+  margin-right: 0.5em;
+  border-radius: 50%;
+  vertical-align: -3px;
+  border: 2px solid #cccccc;
+  padding: 0.15em;
+  background-color: transparent;
+  background-clip: content-box;
+}
+.radio_option input:hover + label:before {
+  border-color: white;
+}
+.radio_option input:checked + label:before {
+  background-color: white;
+  border-color: #000000;
+}
+
+.select_option {
+  position: relative;
+  width: 100%;
+}
+
+.select_option label{
+  color: white;
+}
+
+.select_option select {
+  display: inline-block;
+  width: 100%;
+  height: 35px;
+  padding: 0px 15px;
+  cursor: pointer;
+  color: #7b7b7b;
+  border: 1px solid #cccccc;
+  border-radius: 0;
+  background: transparent;
+  appearance: none;
+}
+
+.select_option select:hover, .select_option select:focus {
+  color: #000000;
+  background: #fafafa;
+  border-color: #000000;
+}
+
+fieldset {
+  background-color: transparent;
+  width: 35%;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid white;
+  
+}
+
+.nada td {
+  color: white;
+  text-align: center;
+}
+
+.nada td a:hover {
+  color: #ee7c22;
+}
+
+p{
+  font-size: small;
+  text-align: center;
+  color: white;
+}
+
+ul.social {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  text-align: center;
+}
+
+ul.social > li {
+  display: inline-block;
+}
+
+ul.social > li > a {
+  display: inline-block;
+  font-size: 18px;
+  line-height: 30px;
+  width: 30px;
+  height: 30px;
+  border-radius: 36px;
+  background-color: #222222;
+  color: #fff;
+  margin: 0 3px 3px 0;
+}
+
+ul.social > li > a:hover {
+  text-decoration: none;
+  background-color: #ee7c22;
+}
+
+
+
+

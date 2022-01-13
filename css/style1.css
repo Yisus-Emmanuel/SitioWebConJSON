@@ -1,0 +1,110 @@
+body {
+    font-family: Verdana, Geneva, sans-serif;
+    box-sizing: none;
+    background-image: linear-gradient(to bottom, rgb(0,0,0,0.45), rgb(0,0,0,0.45)),url(../img/Background.jpg);
+    background-size: cover;
+  }
+
+  h1 {
+    font-family: MinecraftTen;
+    font-size: 35px;
+    color: white;
+    text-align: center;
+  }
+
+  input[type=text], input[type=password] {
+    width: 155%;
+    padding: 8px 10px 9px 35px;
+    height: 35px;
+    border: 1px solid #cccccc;
+    box-sizing: border-box;
+    outline: none;
+    background-color: transparent;
+    -webkit-transition: all 0.30s ease-in-out;
+    -moz-transition: all 0.30s ease-in-out;
+    -ms-transition: all 0.30s ease-in-out;
+    transition: all 0.30s ease-in-out;
+  }
+  
+   input[type=text]:hover, input[type=password]:hover {
+    background: #fafafa;
+  }
+   input[type=text]:focus, input[type=password]:focus {
+    -webkit-box-shadow: 0 0 2px 1px rgba(255, 169, 0, 0.5);
+    -moz-box-shadow: 0 0 2px 1px rgba(255, 169, 0, 0.5);
+    box-shadow: 0 0 2px 1px rgba(255, 169, 0, 0.5);
+    border: 1px solid #f5ba1a;
+    background: #fafafa;
+  }
+
+   input[type=submit] {
+    background: #f5ba1a;
+    height: 35px;
+    line-height: 35px;
+    width: 155%;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+    font-size: 1.1em;
+    margin-bottom: 10px;
+  }
+
+   input[type=submit]:hover {
+    background: #ee7c22;
+  }
+
+   input[type=submit]:focus {
+    background: #e1a70a;
+  }
+
+  fieldset {
+    background-color: transparent;
+    width: 27%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid white;
+  }
+
+  p{
+    font-size: small;
+    text-align: center;
+    color: white;
+  }
+
+  .nada td {
+    color: white;
+    text-align: center;
+  }
+
+  .nada td a:hover {
+    color: #ee7c22;
+  }
+  
+  ul.social {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    text-align: center;
+  }
+  
+  ul.social > li {
+    display: inline-block;
+  }
+  
+  ul.social > li > a {
+    display: inline-block;
+    font-size: 18px;
+    line-height: 30px;
+    width: 30px;
+    height: 30px;
+    border-radius: 36px;
+    background-color: #222222;
+    color: #fff;
+    margin: 0 3px 3px 0;
+  }
+  
+  ul.social > li > a:hover {
+    text-decoration: none;
+    background-color: #ee7c22;
+  }
+  
